@@ -1,0 +1,650 @@
+<instance>
+	<presentation name="JBSProblem" maxConstraintArity="4" maximize="false" format="XCSP 2.1_FRODO" />
+
+	<agents nbAgents="36">
+		<agent name="agent71" />
+		<agent name="agent76" />
+		<agent name="agent80" />
+		<agent name="agent83" />
+		<agent name="agent84" />
+		<agent name="agent85" />
+		<agent name="agent87" />
+		<agent name="agent88" />
+		<agent name="agent92" />
+		<agent name="agent96" />
+		<agent name="agent100" />
+		<agent name="agent103" />
+		<agent name="agent104" />
+		<agent name="agent107" />
+		<agent name="agent111" />
+		<agent name="agent115" />
+		<agent name="agent119" />
+		<agent name="agent123" />
+		<agent name="agent125" />
+		<agent name="agent127" />
+		<agent name="agent131" />
+		<agent name="agent135" />
+		<agent name="agent136" />
+		<agent name="agent139" />
+		<agent name="agent140" />
+		<agent name="agent141" />
+		<agent name="agent145" />
+		<agent name="agent147" />
+		<agent name="agent152" />
+		<agent name="agent157" />
+		<agent name="agent161" />
+		<agent name="agent163" />
+		<agent name="agent164" />
+		<agent name="agent167" />
+		<agent name="agent169" />
+		<agent name="agent171" />
+	</agents>
+
+	<domains nbDomains="37">
+		<domain name="basestation71" nbValues="1">74</domain>
+		<domain name="basestation76" nbValues="2">74 78</domain>
+		<domain name="basestation80" nbValues="2">78 82</domain>
+		<domain name="basestation83" nbValues="2">82 86</domain>
+		<domain name="basestation84" nbValues="2">82 86</domain>
+		<domain name="basestation85" nbValues="2">82 86</domain>
+		<domain name="basestation87" nbValues="2">86 90</domain>
+		<domain name="basestation88" nbValues="2">86 90</domain>
+		<domain name="basestation92" nbValues="2">90 94</domain>
+		<domain name="basestation96" nbValues="2">94 98</domain>
+		<domain name="basestation100" nbValues="2">98 102</domain>
+		<domain name="basestation103" nbValues="2">102 106</domain>
+		<domain name="basestation104" nbValues="2">102 106</domain>
+		<domain name="basestation107" nbValues="2">106 110</domain>
+		<domain name="basestation111" nbValues="2">110 114</domain>
+		<domain name="basestation115" nbValues="2">114 118</domain>
+		<domain name="basestation119" nbValues="2">118 122</domain>
+		<domain name="basestation123" nbValues="2">122 126</domain>
+		<domain name="basestation125" nbValues="2">122 126</domain>
+		<domain name="basestation127" nbValues="2">126 130</domain>
+		<domain name="basestation131" nbValues="2">130 134</domain>
+		<domain name="basestation135" nbValues="2">134 138</domain>
+		<domain name="basestation136" nbValues="2">134 138</domain>
+		<domain name="basestation139" nbValues="2">138 142</domain>
+		<domain name="basestation140" nbValues="2">138 142</domain>
+		<domain name="basestation141" nbValues="2">138 142</domain>
+		<domain name="basestation145" nbValues="2">142 146</domain>
+		<domain name="basestation147" nbValues="2">146 150</domain>
+		<domain name="basestation152" nbValues="2">150 154</domain>
+		<domain name="basestation157" nbValues="2">154 158</domain>
+		<domain name="basestation161" nbValues="2">158 162</domain>
+		<domain name="basestation163" nbValues="2">162 166</domain>
+		<domain name="basestation164" nbValues="2">162 166</domain>
+		<domain name="basestation167" nbValues="2">166 170</domain>
+		<domain name="basestation169" nbValues="2">166 170</domain>
+		<domain name="basestation171" nbValues="1">170</domain>
+		<domain name="rounds" nbValues="5">1 2 3 4 5</domain>
+	</domains>
+
+	<variables nbVariables="72">
+		<variable name="agent71bs" domain="basestation71" agent="agent71" />
+		<variable name="agent71r" domain="rounds" agent="agent71" />
+		<variable name="agent76bs" domain="basestation76" agent="agent76" />
+		<variable name="agent76r" domain="rounds" agent="agent76" />
+		<variable name="agent80bs" domain="basestation80" agent="agent80" />
+		<variable name="agent80r" domain="rounds" agent="agent80" />
+		<variable name="agent83bs" domain="basestation83" agent="agent83" />
+		<variable name="agent83r" domain="rounds" agent="agent83" />
+		<variable name="agent84bs" domain="basestation84" agent="agent84" />
+		<variable name="agent84r" domain="rounds" agent="agent84" />
+		<variable name="agent85bs" domain="basestation85" agent="agent85" />
+		<variable name="agent85r" domain="rounds" agent="agent85" />
+		<variable name="agent87bs" domain="basestation87" agent="agent87" />
+		<variable name="agent87r" domain="rounds" agent="agent87" />
+		<variable name="agent88bs" domain="basestation88" agent="agent88" />
+		<variable name="agent88r" domain="rounds" agent="agent88" />
+		<variable name="agent92bs" domain="basestation92" agent="agent92" />
+		<variable name="agent92r" domain="rounds" agent="agent92" />
+		<variable name="agent96bs" domain="basestation96" agent="agent96" />
+		<variable name="agent96r" domain="rounds" agent="agent96" />
+		<variable name="agent100bs" domain="basestation100" agent="agent100" />
+		<variable name="agent100r" domain="rounds" agent="agent100" />
+		<variable name="agent103bs" domain="basestation103" agent="agent103" />
+		<variable name="agent103r" domain="rounds" agent="agent103" />
+		<variable name="agent104bs" domain="basestation104" agent="agent104" />
+		<variable name="agent104r" domain="rounds" agent="agent104" />
+		<variable name="agent107bs" domain="basestation107" agent="agent107" />
+		<variable name="agent107r" domain="rounds" agent="agent107" />
+		<variable name="agent111bs" domain="basestation111" agent="agent111" />
+		<variable name="agent111r" domain="rounds" agent="agent111" />
+		<variable name="agent115bs" domain="basestation115" agent="agent115" />
+		<variable name="agent115r" domain="rounds" agent="agent115" />
+		<variable name="agent119bs" domain="basestation119" agent="agent119" />
+		<variable name="agent119r" domain="rounds" agent="agent119" />
+		<variable name="agent123bs" domain="basestation123" agent="agent123" />
+		<variable name="agent123r" domain="rounds" agent="agent123" />
+		<variable name="agent125bs" domain="basestation125" agent="agent125" />
+		<variable name="agent125r" domain="rounds" agent="agent125" />
+		<variable name="agent127bs" domain="basestation127" agent="agent127" />
+		<variable name="agent127r" domain="rounds" agent="agent127" />
+		<variable name="agent131bs" domain="basestation131" agent="agent131" />
+		<variable name="agent131r" domain="rounds" agent="agent131" />
+		<variable name="agent135bs" domain="basestation135" agent="agent135" />
+		<variable name="agent135r" domain="rounds" agent="agent135" />
+		<variable name="agent136bs" domain="basestation136" agent="agent136" />
+		<variable name="agent136r" domain="rounds" agent="agent136" />
+		<variable name="agent139bs" domain="basestation139" agent="agent139" />
+		<variable name="agent139r" domain="rounds" agent="agent139" />
+		<variable name="agent140bs" domain="basestation140" agent="agent140" />
+		<variable name="agent140r" domain="rounds" agent="agent140" />
+		<variable name="agent141bs" domain="basestation141" agent="agent141" />
+		<variable name="agent141r" domain="rounds" agent="agent141" />
+		<variable name="agent145bs" domain="basestation145" agent="agent145" />
+		<variable name="agent145r" domain="rounds" agent="agent145" />
+		<variable name="agent147bs" domain="basestation147" agent="agent147" />
+		<variable name="agent147r" domain="rounds" agent="agent147" />
+		<variable name="agent152bs" domain="basestation152" agent="agent152" />
+		<variable name="agent152r" domain="rounds" agent="agent152" />
+		<variable name="agent157bs" domain="basestation157" agent="agent157" />
+		<variable name="agent157r" domain="rounds" agent="agent157" />
+		<variable name="agent161bs" domain="basestation161" agent="agent161" />
+		<variable name="agent161r" domain="rounds" agent="agent161" />
+		<variable name="agent163bs" domain="basestation163" agent="agent163" />
+		<variable name="agent163r" domain="rounds" agent="agent163" />
+		<variable name="agent164bs" domain="basestation164" agent="agent164" />
+		<variable name="agent164r" domain="rounds" agent="agent164" />
+		<variable name="agent167bs" domain="basestation167" agent="agent167" />
+		<variable name="agent167r" domain="rounds" agent="agent167" />
+		<variable name="agent169bs" domain="basestation169" agent="agent169" />
+		<variable name="agent169r" domain="rounds" agent="agent169" />
+		<variable name="agent171bs" domain="basestation171" agent="agent171" />
+		<variable name="agent171r" domain="rounds" agent="agent171" />
+	</variables>
+
+	<relations nbRelations="1">
+		<relation name="COST" arity="1" nbTuples="5" semantics="soft" defaultCost="infinity">
+			1: 1 | 2: 2 | 3: 3 | 4: 4 | 5: 5
+		</relation>
+	</relations>
+
+	<predicates nbPredicates="2">
+		<predicate name="NEQ">
+			<parameters> int X1 int X2 int Y1 int Y2 </parameters>
+			<expression>
+				<functional> or( ne(Y1, Y2), ne(X1, X2) ) </functional>
+			</expression>
+		</predicate>
+		<predicate name="ISCOLLIDE">
+			<parameters> int X1 int X2 int Y1 int Y2 int Z1 int Z2 </parameters>
+			<expression>
+				<functional> or( ne(X1, X2), or( ne(Y1, Z1), ne(Y2, Z2) ) ) </functional>
+			</expression>
+		</predicate>
+	</predicates>
+
+	<constraints nbConstraints="0">
+		<!-- Cost of each round assignment -->
+		<constraint name="agent71_cost" arity="1" scope="agent71r" reference="COST" />
+		<constraint name="agent76_cost" arity="1" scope="agent76r" reference="COST" />
+		<constraint name="agent80_cost" arity="1" scope="agent80r" reference="COST" />
+		<constraint name="agent83_cost" arity="1" scope="agent83r" reference="COST" />
+		<constraint name="agent84_cost" arity="1" scope="agent84r" reference="COST" />
+		<constraint name="agent85_cost" arity="1" scope="agent85r" reference="COST" />
+		<constraint name="agent87_cost" arity="1" scope="agent87r" reference="COST" />
+		<constraint name="agent88_cost" arity="1" scope="agent88r" reference="COST" />
+		<constraint name="agent92_cost" arity="1" scope="agent92r" reference="COST" />
+		<constraint name="agent96_cost" arity="1" scope="agent96r" reference="COST" />
+		<constraint name="agent100_cost" arity="1" scope="agent100r" reference="COST" />
+		<constraint name="agent103_cost" arity="1" scope="agent103r" reference="COST" />
+		<constraint name="agent104_cost" arity="1" scope="agent104r" reference="COST" />
+		<constraint name="agent107_cost" arity="1" scope="agent107r" reference="COST" />
+		<constraint name="agent111_cost" arity="1" scope="agent111r" reference="COST" />
+		<constraint name="agent115_cost" arity="1" scope="agent115r" reference="COST" />
+		<constraint name="agent119_cost" arity="1" scope="agent119r" reference="COST" />
+		<constraint name="agent123_cost" arity="1" scope="agent123r" reference="COST" />
+		<constraint name="agent125_cost" arity="1" scope="agent125r" reference="COST" />
+		<constraint name="agent127_cost" arity="1" scope="agent127r" reference="COST" />
+		<constraint name="agent131_cost" arity="1" scope="agent131r" reference="COST" />
+		<constraint name="agent135_cost" arity="1" scope="agent135r" reference="COST" />
+		<constraint name="agent136_cost" arity="1" scope="agent136r" reference="COST" />
+		<constraint name="agent139_cost" arity="1" scope="agent139r" reference="COST" />
+		<constraint name="agent140_cost" arity="1" scope="agent140r" reference="COST" />
+		<constraint name="agent141_cost" arity="1" scope="agent141r" reference="COST" />
+		<constraint name="agent145_cost" arity="1" scope="agent145r" reference="COST" />
+		<constraint name="agent147_cost" arity="1" scope="agent147r" reference="COST" />
+		<constraint name="agent152_cost" arity="1" scope="agent152r" reference="COST" />
+		<constraint name="agent157_cost" arity="1" scope="agent157r" reference="COST" />
+		<constraint name="agent161_cost" arity="1" scope="agent161r" reference="COST" />
+		<constraint name="agent163_cost" arity="1" scope="agent163r" reference="COST" />
+		<constraint name="agent164_cost" arity="1" scope="agent164r" reference="COST" />
+		<constraint name="agent167_cost" arity="1" scope="agent167r" reference="COST" />
+		<constraint name="agent169_cost" arity="1" scope="agent169r" reference="COST" />
+		<constraint name="agent171_cost" arity="1" scope="agent171r" reference="COST" />
+		<!-- If same round, then can't have same BS -->
+		<constraint name="agent71_and_agent76_have_different_bs_if_in_same_round" arity="4" scope="agent71bs agent76bs agent71r agent76r" reference="NEQ" >
+			<parameters> agent71bs agent76bs agent71r agent76r </parameters>
+		</constraint>
+		<constraint name="agent76_and_agent80_have_different_bs_if_in_same_round" arity="4" scope="agent76bs agent80bs agent76r agent80r" reference="NEQ" >
+			<parameters> agent76bs agent80bs agent76r agent80r </parameters>
+		</constraint>
+		<constraint name="agent80_and_agent83_have_different_bs_if_in_same_round" arity="4" scope="agent80bs agent83bs agent80r agent83r" reference="NEQ" >
+			<parameters> agent80bs agent83bs agent80r agent83r </parameters>
+		</constraint>
+		<constraint name="agent80_and_agent84_have_different_bs_if_in_same_round" arity="4" scope="agent80bs agent84bs agent80r agent84r" reference="NEQ" >
+			<parameters> agent80bs agent84bs agent80r agent84r </parameters>
+		</constraint>
+		<constraint name="agent80_and_agent85_have_different_bs_if_in_same_round" arity="4" scope="agent80bs agent85bs agent80r agent85r" reference="NEQ" >
+			<parameters> agent80bs agent85bs agent80r agent85r </parameters>
+		</constraint>
+		<constraint name="agent83_and_agent84_have_different_bs_if_in_same_round" arity="4" scope="agent83bs agent84bs agent83r agent84r" reference="NEQ" >
+			<parameters> agent83bs agent84bs agent83r agent84r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent83_and_agent84_don't_collide" arity="4" scope="agent83r agent84r agent83bs agent84bs" reference="ISCOLLIDE" >
+			<parameters> agent83r agent84r agent83bs agent84bs 86 82 </parameters>  
+		</constraint>
+		<constraint name="agent83_and_agent85_have_different_bs_if_in_same_round" arity="4" scope="agent83bs agent85bs agent83r agent85r" reference="NEQ" >
+			<parameters> agent83bs agent85bs agent83r agent85r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent83_and_agent85_don't_collide" arity="4" scope="agent83r agent85r agent83bs agent85bs" reference="ISCOLLIDE" >
+			<parameters> agent83r agent85r agent83bs agent85bs 86 82 </parameters>  
+		</constraint>
+		<constraint name="agent84_and_agent85_have_different_bs_if_in_same_round" arity="4" scope="agent84bs agent85bs agent84r agent85r" reference="NEQ" >
+			<parameters> agent84bs agent85bs agent84r agent85r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent84_and_agent85_don't_collide" arity="4" scope="agent84r agent85r agent84bs agent85bs" reference="ISCOLLIDE" >
+			<parameters> agent84r agent85r agent84bs agent85bs 86 82 </parameters>  
+		</constraint>
+		<constraint name="agent83_and_agent87_have_different_bs_if_in_same_round" arity="4" scope="agent83bs agent87bs agent83r agent87r" reference="NEQ" >
+			<parameters> agent83bs agent87bs agent83r agent87r </parameters>
+		</constraint>
+		<constraint name="agent83_and_agent88_have_different_bs_if_in_same_round" arity="4" scope="agent83bs agent88bs agent83r agent88r" reference="NEQ" >
+			<parameters> agent83bs agent88bs agent83r agent88r </parameters>
+		</constraint>
+		<constraint name="agent84_and_agent87_have_different_bs_if_in_same_round" arity="4" scope="agent84bs agent87bs agent84r agent87r" reference="NEQ" >
+			<parameters> agent84bs agent87bs agent84r agent87r </parameters>
+		</constraint>
+		<constraint name="agent84_and_agent88_have_different_bs_if_in_same_round" arity="4" scope="agent84bs agent88bs agent84r agent88r" reference="NEQ" >
+			<parameters> agent84bs agent88bs agent84r agent88r </parameters>
+		</constraint>
+		<constraint name="agent85_and_agent87_have_different_bs_if_in_same_round" arity="4" scope="agent85bs agent87bs agent85r agent87r" reference="NEQ" >
+			<parameters> agent85bs agent87bs agent85r agent87r </parameters>
+		</constraint>
+		<constraint name="agent85_and_agent88_have_different_bs_if_in_same_round" arity="4" scope="agent85bs agent88bs agent85r agent88r" reference="NEQ" >
+			<parameters> agent85bs agent88bs agent85r agent88r </parameters>
+		</constraint>
+		<constraint name="agent87_and_agent88_have_different_bs_if_in_same_round" arity="4" scope="agent87bs agent88bs agent87r agent88r" reference="NEQ" >
+			<parameters> agent87bs agent88bs agent87r agent88r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent87_and_agent88_don't_collide" arity="4" scope="agent87r agent88r agent87bs agent88bs" reference="ISCOLLIDE" >
+			<parameters> agent87r agent88r agent87bs agent88bs 90 86 </parameters>  
+		</constraint>
+		<constraint name="agent87_and_agent92_have_different_bs_if_in_same_round" arity="4" scope="agent87bs agent92bs agent87r agent92r" reference="NEQ" >
+			<parameters> agent87bs agent92bs agent87r agent92r </parameters>
+		</constraint>
+		<constraint name="agent88_and_agent92_have_different_bs_if_in_same_round" arity="4" scope="agent88bs agent92bs agent88r agent92r" reference="NEQ" >
+			<parameters> agent88bs agent92bs agent88r agent92r </parameters>
+		</constraint>
+		<constraint name="agent92_and_agent96_have_different_bs_if_in_same_round" arity="4" scope="agent92bs agent96bs agent92r agent96r" reference="NEQ" >
+			<parameters> agent92bs agent96bs agent92r agent96r </parameters>
+		</constraint>
+		<constraint name="agent96_and_agent100_have_different_bs_if_in_same_round" arity="4" scope="agent96bs agent100bs agent96r agent100r" reference="NEQ" >
+			<parameters> agent96bs agent100bs agent96r agent100r </parameters>
+		</constraint>
+		<constraint name="agent100_and_agent103_have_different_bs_if_in_same_round" arity="4" scope="agent100bs agent103bs agent100r agent103r" reference="NEQ" >
+			<parameters> agent100bs agent103bs agent100r agent103r </parameters>
+		</constraint>
+		<constraint name="agent100_and_agent104_have_different_bs_if_in_same_round" arity="4" scope="agent100bs agent104bs agent100r agent104r" reference="NEQ" >
+			<parameters> agent100bs agent104bs agent100r agent104r </parameters>
+		</constraint>
+		<constraint name="agent103_and_agent104_have_different_bs_if_in_same_round" arity="4" scope="agent103bs agent104bs agent103r agent104r" reference="NEQ" >
+			<parameters> agent103bs agent104bs agent103r agent104r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent103_and_agent104_don't_collide" arity="4" scope="agent103r agent104r agent103bs agent104bs" reference="ISCOLLIDE" >
+			<parameters> agent103r agent104r agent103bs agent104bs 106 102 </parameters>  
+		</constraint>
+		<constraint name="agent103_and_agent107_have_different_bs_if_in_same_round" arity="4" scope="agent103bs agent107bs agent103r agent107r" reference="NEQ" >
+			<parameters> agent103bs agent107bs agent103r agent107r </parameters>
+		</constraint>
+		<constraint name="agent104_and_agent107_have_different_bs_if_in_same_round" arity="4" scope="agent104bs agent107bs agent104r agent107r" reference="NEQ" >
+			<parameters> agent104bs agent107bs agent104r agent107r </parameters>
+		</constraint>
+		<constraint name="agent107_and_agent111_have_different_bs_if_in_same_round" arity="4" scope="agent107bs agent111bs agent107r agent111r" reference="NEQ" >
+			<parameters> agent107bs agent111bs agent107r agent111r </parameters>
+		</constraint>
+		<constraint name="agent111_and_agent115_have_different_bs_if_in_same_round" arity="4" scope="agent111bs agent115bs agent111r agent115r" reference="NEQ" >
+			<parameters> agent111bs agent115bs agent111r agent115r </parameters>
+		</constraint>
+		<constraint name="agent115_and_agent119_have_different_bs_if_in_same_round" arity="4" scope="agent115bs agent119bs agent115r agent119r" reference="NEQ" >
+			<parameters> agent115bs agent119bs agent115r agent119r </parameters>
+		</constraint>
+		<constraint name="agent119_and_agent123_have_different_bs_if_in_same_round" arity="4" scope="agent119bs agent123bs agent119r agent123r" reference="NEQ" >
+			<parameters> agent119bs agent123bs agent119r agent123r </parameters>
+		</constraint>
+		<constraint name="agent119_and_agent125_have_different_bs_if_in_same_round" arity="4" scope="agent119bs agent125bs agent119r agent125r" reference="NEQ" >
+			<parameters> agent119bs agent125bs agent119r agent125r </parameters>
+		</constraint>
+		<constraint name="agent123_and_agent125_have_different_bs_if_in_same_round" arity="4" scope="agent123bs agent125bs agent123r agent125r" reference="NEQ" >
+			<parameters> agent123bs agent125bs agent123r agent125r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent123_and_agent125_don't_collide" arity="4" scope="agent123r agent125r agent123bs agent125bs" reference="ISCOLLIDE" >
+			<parameters> agent123r agent125r agent123bs agent125bs 126 122 </parameters>  
+		</constraint>
+		<constraint name="agent123_and_agent127_have_different_bs_if_in_same_round" arity="4" scope="agent123bs agent127bs agent123r agent127r" reference="NEQ" >
+			<parameters> agent123bs agent127bs agent123r agent127r </parameters>
+		</constraint>
+		<constraint name="agent125_and_agent127_have_different_bs_if_in_same_round" arity="4" scope="agent125bs agent127bs agent125r agent127r" reference="NEQ" >
+			<parameters> agent125bs agent127bs agent125r agent127r </parameters>
+		</constraint>
+		<constraint name="agent127_and_agent131_have_different_bs_if_in_same_round" arity="4" scope="agent127bs agent131bs agent127r agent131r" reference="NEQ" >
+			<parameters> agent127bs agent131bs agent127r agent131r </parameters>
+		</constraint>
+		<constraint name="agent131_and_agent135_have_different_bs_if_in_same_round" arity="4" scope="agent131bs agent135bs agent131r agent135r" reference="NEQ" >
+			<parameters> agent131bs agent135bs agent131r agent135r </parameters>
+		</constraint>
+		<constraint name="agent131_and_agent136_have_different_bs_if_in_same_round" arity="4" scope="agent131bs agent136bs agent131r agent136r" reference="NEQ" >
+			<parameters> agent131bs agent136bs agent131r agent136r </parameters>
+		</constraint>
+		<constraint name="agent135_and_agent136_have_different_bs_if_in_same_round" arity="4" scope="agent135bs agent136bs agent135r agent136r" reference="NEQ" >
+			<parameters> agent135bs agent136bs agent135r agent136r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent135_and_agent136_don't_collide" arity="4" scope="agent135r agent136r agent135bs agent136bs" reference="ISCOLLIDE" >
+			<parameters> agent135r agent136r agent135bs agent136bs 138 134 </parameters>  
+		</constraint>
+		<constraint name="agent135_and_agent139_have_different_bs_if_in_same_round" arity="4" scope="agent135bs agent139bs agent135r agent139r" reference="NEQ" >
+			<parameters> agent135bs agent139bs agent135r agent139r </parameters>
+		</constraint>
+		<constraint name="agent135_and_agent140_have_different_bs_if_in_same_round" arity="4" scope="agent135bs agent140bs agent135r agent140r" reference="NEQ" >
+			<parameters> agent135bs agent140bs agent135r agent140r </parameters>
+		</constraint>
+		<constraint name="agent135_and_agent141_have_different_bs_if_in_same_round" arity="4" scope="agent135bs agent141bs agent135r agent141r" reference="NEQ" >
+			<parameters> agent135bs agent141bs agent135r agent141r </parameters>
+		</constraint>
+		<constraint name="agent136_and_agent139_have_different_bs_if_in_same_round" arity="4" scope="agent136bs agent139bs agent136r agent139r" reference="NEQ" >
+			<parameters> agent136bs agent139bs agent136r agent139r </parameters>
+		</constraint>
+		<constraint name="agent136_and_agent140_have_different_bs_if_in_same_round" arity="4" scope="agent136bs agent140bs agent136r agent140r" reference="NEQ" >
+			<parameters> agent136bs agent140bs agent136r agent140r </parameters>
+		</constraint>
+		<constraint name="agent136_and_agent141_have_different_bs_if_in_same_round" arity="4" scope="agent136bs agent141bs agent136r agent141r" reference="NEQ" >
+			<parameters> agent136bs agent141bs agent136r agent141r </parameters>
+		</constraint>
+		<constraint name="agent139_and_agent140_have_different_bs_if_in_same_round" arity="4" scope="agent139bs agent140bs agent139r agent140r" reference="NEQ" >
+			<parameters> agent139bs agent140bs agent139r agent140r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent139_and_agent140_don't_collide" arity="4" scope="agent139r agent140r agent139bs agent140bs" reference="ISCOLLIDE" >
+			<parameters> agent139r agent140r agent139bs agent140bs 142 138 </parameters>  
+		</constraint>
+		<constraint name="agent139_and_agent141_have_different_bs_if_in_same_round" arity="4" scope="agent139bs agent141bs agent139r agent141r" reference="NEQ" >
+			<parameters> agent139bs agent141bs agent139r agent141r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent139_and_agent141_don't_collide" arity="4" scope="agent139r agent141r agent139bs agent141bs" reference="ISCOLLIDE" >
+			<parameters> agent139r agent141r agent139bs agent141bs 142 138 </parameters>  
+		</constraint>
+		<constraint name="agent140_and_agent141_have_different_bs_if_in_same_round" arity="4" scope="agent140bs agent141bs agent140r agent141r" reference="NEQ" >
+			<parameters> agent140bs agent141bs agent140r agent141r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent140_and_agent141_don't_collide" arity="4" scope="agent140r agent141r agent140bs agent141bs" reference="ISCOLLIDE" >
+			<parameters> agent140r agent141r agent140bs agent141bs 142 138 </parameters>  
+		</constraint>
+		<constraint name="agent139_and_agent145_have_different_bs_if_in_same_round" arity="4" scope="agent139bs agent145bs agent139r agent145r" reference="NEQ" >
+			<parameters> agent139bs agent145bs agent139r agent145r </parameters>
+		</constraint>
+		<constraint name="agent140_and_agent145_have_different_bs_if_in_same_round" arity="4" scope="agent140bs agent145bs agent140r agent145r" reference="NEQ" >
+			<parameters> agent140bs agent145bs agent140r agent145r </parameters>
+		</constraint>
+		<constraint name="agent141_and_agent145_have_different_bs_if_in_same_round" arity="4" scope="agent141bs agent145bs agent141r agent145r" reference="NEQ" >
+			<parameters> agent141bs agent145bs agent141r agent145r </parameters>
+		</constraint>
+		<constraint name="agent145_and_agent147_have_different_bs_if_in_same_round" arity="4" scope="agent145bs agent147bs agent145r agent147r" reference="NEQ" >
+			<parameters> agent145bs agent147bs agent145r agent147r </parameters>
+		</constraint>
+		<constraint name="agent147_and_agent152_have_different_bs_if_in_same_round" arity="4" scope="agent147bs agent152bs agent147r agent152r" reference="NEQ" >
+			<parameters> agent147bs agent152bs agent147r agent152r </parameters>
+		</constraint>
+		<constraint name="agent152_and_agent157_have_different_bs_if_in_same_round" arity="4" scope="agent152bs agent157bs agent152r agent157r" reference="NEQ" >
+			<parameters> agent152bs agent157bs agent152r agent157r </parameters>
+		</constraint>
+		<constraint name="agent157_and_agent161_have_different_bs_if_in_same_round" arity="4" scope="agent157bs agent161bs agent157r agent161r" reference="NEQ" >
+			<parameters> agent157bs agent161bs agent157r agent161r </parameters>
+		</constraint>
+		<constraint name="agent161_and_agent163_have_different_bs_if_in_same_round" arity="4" scope="agent161bs agent163bs agent161r agent163r" reference="NEQ" >
+			<parameters> agent161bs agent163bs agent161r agent163r </parameters>
+		</constraint>
+		<constraint name="agent161_and_agent164_have_different_bs_if_in_same_round" arity="4" scope="agent161bs agent164bs agent161r agent164r" reference="NEQ" >
+			<parameters> agent161bs agent164bs agent161r agent164r </parameters>
+		</constraint>
+		<constraint name="agent163_and_agent164_have_different_bs_if_in_same_round" arity="4" scope="agent163bs agent164bs agent163r agent164r" reference="NEQ" >
+			<parameters> agent163bs agent164bs agent163r agent164r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent163_and_agent164_don't_collide" arity="4" scope="agent163r agent164r agent163bs agent164bs" reference="ISCOLLIDE" >
+			<parameters> agent163r agent164r agent163bs agent164bs 166 162 </parameters>  
+		</constraint>
+		<constraint name="agent163_and_agent167_have_different_bs_if_in_same_round" arity="4" scope="agent163bs agent167bs agent163r agent167r" reference="NEQ" >
+			<parameters> agent163bs agent167bs agent163r agent167r </parameters>
+		</constraint>
+		<constraint name="agent163_and_agent169_have_different_bs_if_in_same_round" arity="4" scope="agent163bs agent169bs agent163r agent169r" reference="NEQ" >
+			<parameters> agent163bs agent169bs agent163r agent169r </parameters>
+		</constraint>
+		<constraint name="agent164_and_agent167_have_different_bs_if_in_same_round" arity="4" scope="agent164bs agent167bs agent164r agent167r" reference="NEQ" >
+			<parameters> agent164bs agent167bs agent164r agent167r </parameters>
+		</constraint>
+		<constraint name="agent164_and_agent169_have_different_bs_if_in_same_round" arity="4" scope="agent164bs agent169bs agent164r agent169r" reference="NEQ" >
+			<parameters> agent164bs agent169bs agent164r agent169r </parameters>
+		</constraint>
+		<constraint name="agent167_and_agent169_have_different_bs_if_in_same_round" arity="4" scope="agent167bs agent169bs agent167r agent169r" reference="NEQ" >
+			<parameters> agent167bs agent169bs agent167r agent169r </parameters>
+		</constraint>
+		<!-- The following constraint is part of IsCollide -->
+		<constraint name="agent167_and_agent169_don't_collide" arity="4" scope="agent167r agent169r agent167bs agent169bs" reference="ISCOLLIDE" >
+			<parameters> agent167r agent169r agent167bs agent169bs 170 166 </parameters>  
+		</constraint>
+		<constraint name="agent167_and_agent171_have_different_bs_if_in_same_round" arity="4" scope="agent167bs agent171bs agent167r agent171r" reference="NEQ" >
+			<parameters> agent167bs agent171bs agent167r agent171r </parameters>
+		</constraint>
+		<constraint name="agent169_and_agent171_have_different_bs_if_in_same_round" arity="4" scope="agent169bs agent171bs agent169r agent171r" reference="NEQ" >
+			<parameters> agent169bs agent171bs agent169r agent171r </parameters>
+		</constraint>
+		<!-- IsCollide -->
+		<constraint name="agent71_and_agent76_don't_collide_3482" arity="4" scope="agent71r agent76r agent71bs agent76bs" reference="ISCOLLIDE" >
+			<parameters> agent71r agent76r agent71bs agent76bs 74 78 </parameters>  
+		</constraint>
+		<constraint name="agent76_and_agent80_don't_collide_6818" arity="4" scope="agent76r agent80r agent76bs agent80bs" reference="ISCOLLIDE" >
+			<parameters> agent76r agent80r agent76bs agent80bs 74 78 </parameters>  
+		</constraint>
+		<constraint name="agent76_and_agent80_don't_collide_6277" arity="4" scope="agent76r agent80r agent76bs agent80bs" reference="ISCOLLIDE" >
+			<parameters> agent76r agent80r agent76bs agent80bs 78 82 </parameters>  
+		</constraint>
+		<constraint name="agent80_and_agent84_don't_collide_2630" arity="4" scope="agent80r agent84r agent80bs agent84bs" reference="ISCOLLIDE" >
+			<parameters> agent80r agent84r agent80bs agent84bs 78 82 </parameters>  
+		</constraint>
+		<constraint name="agent80_and_agent85_don't_collide_2375" arity="4" scope="agent80r agent85r agent80bs agent85bs" reference="ISCOLLIDE" >
+			<parameters> agent80r agent85r agent80bs agent85bs 78 82 </parameters>  
+		</constraint>
+		<constraint name="agent80_and_agent83_don't_collide_8010" arity="4" scope="agent80r agent83r agent80bs agent83bs" reference="ISCOLLIDE" >
+			<parameters> agent80r agent83r agent80bs agent83bs 82 86 </parameters>  
+		</constraint>
+		<constraint name="agent80_and_agent84_don't_collide_4358" arity="4" scope="agent80r agent84r agent80bs agent84bs" reference="ISCOLLIDE" >
+			<parameters> agent80r agent84r agent80bs agent84bs 82 86 </parameters>  
+		</constraint>
+		<constraint name="agent84_and_agent88_don't_collide_3171" arity="4" scope="agent84r agent88r agent84bs agent88bs" reference="ISCOLLIDE" >
+			<parameters> agent84r agent88r agent84bs agent88bs 82 86 </parameters>  
+		</constraint>
+		<constraint name="agent85_and_agent87_don't_collide_8886" arity="4" scope="agent85r agent87r agent85bs agent87bs" reference="ISCOLLIDE" >
+			<parameters> agent85r agent87r agent85bs agent87bs 82 86 </parameters>  
+		</constraint>
+		<constraint name="agent85_and_agent88_don't_collide_650" arity="4" scope="agent85r agent88r agent85bs agent88bs" reference="ISCOLLIDE" >
+			<parameters> agent85r agent88r agent85bs agent88bs 82 86 </parameters>  
+		</constraint>
+		<constraint name="agent83_and_agent87_don't_collide_9085" arity="4" scope="agent83r agent87r agent83bs agent87bs" reference="ISCOLLIDE" >
+			<parameters> agent83r agent87r agent83bs agent87bs 86 90 </parameters>  
+		</constraint>
+		<constraint name="agent84_and_agent87_don't_collide_6634" arity="4" scope="agent84r agent87r agent84bs agent87bs" reference="ISCOLLIDE" >
+			<parameters> agent84r agent87r agent84bs agent87bs 86 90 </parameters>  
+		</constraint>
+		<constraint name="agent85_and_agent87_don't_collide_5642" arity="4" scope="agent85r agent87r agent85bs agent87bs" reference="ISCOLLIDE" >
+			<parameters> agent85r agent87r agent85bs agent87bs 86 90 </parameters>  
+		</constraint>
+		<constraint name="agent83_and_agent88_don't_collide_6534" arity="4" scope="agent83r agent88r agent83bs agent88bs" reference="ISCOLLIDE" >
+			<parameters> agent83r agent88r agent83bs agent88bs 86 90 </parameters>  
+		</constraint>
+		<constraint name="agent84_and_agent88_don't_collide_6062" arity="4" scope="agent84r agent88r agent84bs agent88bs" reference="ISCOLLIDE" >
+			<parameters> agent84r agent88r agent84bs agent88bs 86 90 </parameters>  
+		</constraint>
+		<constraint name="agent88_and_agent92_don't_collide_3476" arity="4" scope="agent88r agent92r agent88bs agent92bs" reference="ISCOLLIDE" >
+			<parameters> agent88r agent92r agent88bs agent92bs 86 90 </parameters>  
+		</constraint>
+		<constraint name="agent87_and_agent92_don't_collide_2743" arity="4" scope="agent87r agent92r agent87bs agent92bs" reference="ISCOLLIDE" >
+			<parameters> agent87r agent92r agent87bs agent92bs 90 94 </parameters>  
+		</constraint>
+		<constraint name="agent88_and_agent92_don't_collide_9098" arity="4" scope="agent88r agent92r agent88bs agent92bs" reference="ISCOLLIDE" >
+			<parameters> agent88r agent92r agent88bs agent92bs 90 94 </parameters>  
+		</constraint>
+		<constraint name="agent92_and_agent96_don't_collide_2620" arity="4" scope="agent92r agent96r agent92bs agent96bs" reference="ISCOLLIDE" >
+			<parameters> agent92r agent96r agent92bs agent96bs 90 94 </parameters>  
+		</constraint>
+		<constraint name="agent92_and_agent96_don't_collide_9215" arity="4" scope="agent92r agent96r agent92bs agent96bs" reference="ISCOLLIDE" >
+			<parameters> agent92r agent96r agent92bs agent96bs 94 98 </parameters>  
+		</constraint>
+		<constraint name="agent96_and_agent100_don't_collide_7379" arity="4" scope="agent96r agent100r agent96bs agent100bs" reference="ISCOLLIDE" >
+			<parameters> agent96r agent100r agent96bs agent100bs 94 98 </parameters>  
+		</constraint>
+		<constraint name="agent96_and_agent100_don't_collide_4349" arity="4" scope="agent96r agent100r agent96bs agent100bs" reference="ISCOLLIDE" >
+			<parameters> agent96r agent100r agent96bs agent100bs 98 102 </parameters>  
+		</constraint>
+		<constraint name="agent100_and_agent104_don't_collide_7048" arity="4" scope="agent100r agent104r agent100bs agent104bs" reference="ISCOLLIDE" >
+			<parameters> agent100r agent104r agent100bs agent104bs 98 102 </parameters>  
+		</constraint>
+		<constraint name="agent100_and_agent103_don't_collide_5791" arity="4" scope="agent100r agent103r agent100bs agent103bs" reference="ISCOLLIDE" >
+			<parameters> agent100r agent103r agent100bs agent103bs 102 106 </parameters>  
+		</constraint>
+		<constraint name="agent100_and_agent104_don't_collide_1581" arity="4" scope="agent100r agent104r agent100bs agent104bs" reference="ISCOLLIDE" >
+			<parameters> agent100r agent104r agent100bs agent104bs 102 106 </parameters>  
+		</constraint>
+		<constraint name="agent103_and_agent107_don't_collide_1057" arity="4" scope="agent103r agent107r agent103bs agent107bs" reference="ISCOLLIDE" >
+			<parameters> agent103r agent107r agent103bs agent107bs 106 110 </parameters>  
+		</constraint>
+		<constraint name="agent104_and_agent107_don't_collide_1732" arity="4" scope="agent104r agent107r agent104bs agent107bs" reference="ISCOLLIDE" >
+			<parameters> agent104r agent107r agent104bs agent107bs 106 110 </parameters>  
+		</constraint>
+		<constraint name="agent107_and_agent111_don't_collide_4290" arity="4" scope="agent107r agent111r agent107bs agent111bs" reference="ISCOLLIDE" >
+			<parameters> agent107r agent111r agent107bs agent111bs 110 114 </parameters>  
+		</constraint>
+		<constraint name="agent111_and_agent115_don't_collide_485" arity="4" scope="agent111r agent115r agent111bs agent115bs" reference="ISCOLLIDE" >
+			<parameters> agent111r agent115r agent111bs agent115bs 114 118 </parameters>  
+		</constraint>
+		<constraint name="agent115_and_agent119_don't_collide_637" arity="4" scope="agent115r agent119r agent115bs agent119bs" reference="ISCOLLIDE" >
+			<parameters> agent115r agent119r agent115bs agent119bs 118 122 </parameters>  
+		</constraint>
+		<constraint name="agent119_and_agent125_don't_collide_9492" arity="4" scope="agent119r agent125r agent119bs agent125bs" reference="ISCOLLIDE" >
+			<parameters> agent119r agent125r agent119bs agent125bs 118 122 </parameters>  
+		</constraint>
+		<constraint name="agent119_and_agent123_don't_collide_1642" arity="4" scope="agent119r agent123r agent119bs agent123bs" reference="ISCOLLIDE" >
+			<parameters> agent119r agent123r agent119bs agent123bs 122 126 </parameters>  
+		</constraint>
+		<constraint name="agent119_and_agent125_don't_collide_4692" arity="4" scope="agent119r agent125r agent119bs agent125bs" reference="ISCOLLIDE" >
+			<parameters> agent119r agent125r agent119bs agent125bs 122 126 </parameters>  
+		</constraint>
+		<constraint name="agent125_and_agent127_don't_collide_194" arity="4" scope="agent125r agent127r agent125bs agent127bs" reference="ISCOLLIDE" >
+			<parameters> agent125r agent127r agent125bs agent127bs 122 126 </parameters>  
+		</constraint>
+		<constraint name="agent123_and_agent127_don't_collide_5239" arity="4" scope="agent123r agent127r agent123bs agent127bs" reference="ISCOLLIDE" >
+			<parameters> agent123r agent127r agent123bs agent127bs 126 130 </parameters>  
+		</constraint>
+		<constraint name="agent125_and_agent127_don't_collide_9156" arity="4" scope="agent125r agent127r agent125bs agent127bs" reference="ISCOLLIDE" >
+			<parameters> agent125r agent127r agent125bs agent127bs 126 130 </parameters>  
+		</constraint>
+		<constraint name="agent127_and_agent131_don't_collide_443" arity="4" scope="agent127r agent131r agent127bs agent131bs" reference="ISCOLLIDE" >
+			<parameters> agent127r agent131r agent127bs agent131bs 130 134 </parameters>  
+		</constraint>
+		<constraint name="agent131_and_agent135_don't_collide_2718" arity="4" scope="agent131r agent135r agent131bs agent135bs" reference="ISCOLLIDE" >
+			<parameters> agent131r agent135r agent131bs agent135bs 134 138 </parameters>  
+		</constraint>
+		<constraint name="agent135_and_agent141_don't_collide_7767" arity="4" scope="agent135r agent141r agent135bs agent141bs" reference="ISCOLLIDE" >
+			<parameters> agent135r agent141r agent135bs agent141bs 134 138 </parameters>  
+		</constraint>
+		<constraint name="agent131_and_agent136_don't_collide_1731" arity="4" scope="agent131r agent136r agent131bs agent136bs" reference="ISCOLLIDE" >
+			<parameters> agent131r agent136r agent131bs agent136bs 134 138 </parameters>  
+		</constraint>
+		<constraint name="agent136_and_agent140_don't_collide_6489" arity="4" scope="agent136r agent140r agent136bs agent140bs" reference="ISCOLLIDE" >
+			<parameters> agent136r agent140r agent136bs agent140bs 134 138 </parameters>  
+		</constraint>
+		<constraint name="agent136_and_agent141_don't_collide_3218" arity="4" scope="agent136r agent141r agent136bs agent141bs" reference="ISCOLLIDE" >
+			<parameters> agent136r agent141r agent136bs agent141bs 134 138 </parameters>  
+		</constraint>
+		<constraint name="agent135_and_agent139_don't_collide_6075" arity="4" scope="agent135r agent139r agent135bs agent139bs" reference="ISCOLLIDE" >
+			<parameters> agent135r agent139r agent135bs agent139bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent136_and_agent139_don't_collide_935" arity="4" scope="agent136r agent139r agent136bs agent139bs" reference="ISCOLLIDE" >
+			<parameters> agent136r agent139r agent136bs agent139bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent139_and_agent145_don't_collide_8277" arity="4" scope="agent139r agent145r agent139bs agent145bs" reference="ISCOLLIDE" >
+			<parameters> agent139r agent145r agent139bs agent145bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent135_and_agent140_don't_collide_5159" arity="4" scope="agent135r agent140r agent135bs agent140bs" reference="ISCOLLIDE" >
+			<parameters> agent135r agent140r agent135bs agent140bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent136_and_agent140_don't_collide_3977" arity="4" scope="agent136r agent140r agent136bs agent140bs" reference="ISCOLLIDE" >
+			<parameters> agent136r agent140r agent136bs agent140bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent140_and_agent145_don't_collide_911" arity="4" scope="agent140r agent145r agent140bs agent145bs" reference="ISCOLLIDE" >
+			<parameters> agent140r agent145r agent140bs agent145bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent135_and_agent141_don't_collide_4641" arity="4" scope="agent135r agent141r agent135bs agent141bs" reference="ISCOLLIDE" >
+			<parameters> agent135r agent141r agent135bs agent141bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent141_and_agent145_don't_collide_5175" arity="4" scope="agent141r agent145r agent141bs agent145bs" reference="ISCOLLIDE" >
+			<parameters> agent141r agent145r agent141bs agent145bs 138 142 </parameters>  
+		</constraint>
+		<constraint name="agent139_and_agent145_don't_collide_907" arity="4" scope="agent139r agent145r agent139bs agent145bs" reference="ISCOLLIDE" >
+			<parameters> agent139r agent145r agent139bs agent145bs 142 146 </parameters>  
+		</constraint>
+		<constraint name="agent145_and_agent147_don't_collide_77" arity="4" scope="agent145r agent147r agent145bs agent147bs" reference="ISCOLLIDE" >
+			<parameters> agent145r agent147r agent145bs agent147bs 142 146 </parameters>  
+		</constraint>
+		<constraint name="agent145_and_agent147_don't_collide_7180" arity="4" scope="agent145r agent147r agent145bs agent147bs" reference="ISCOLLIDE" >
+			<parameters> agent145r agent147r agent145bs agent147bs 146 150 </parameters>  
+		</constraint>
+		<constraint name="agent147_and_agent152_don't_collide_6596" arity="4" scope="agent147r agent152r agent147bs agent152bs" reference="ISCOLLIDE" >
+			<parameters> agent147r agent152r agent147bs agent152bs 150 154 </parameters>  
+		</constraint>
+		<constraint name="agent152_and_agent157_don't_collide_5450" arity="4" scope="agent152r agent157r agent152bs agent157bs" reference="ISCOLLIDE" >
+			<parameters> agent152r agent157r agent152bs agent157bs 150 154 </parameters>  
+		</constraint>
+		<constraint name="agent157_and_agent161_don't_collide_8497" arity="4" scope="agent157r agent161r agent157bs agent161bs" reference="ISCOLLIDE" >
+			<parameters> agent157r agent161r agent157bs agent161bs 154 158 </parameters>  
+		</constraint>
+		<constraint name="agent161_and_agent163_don't_collide_6664" arity="4" scope="agent161r agent163r agent161bs agent163bs" reference="ISCOLLIDE" >
+			<parameters> agent161r agent163r agent161bs agent163bs 158 162 </parameters>  
+		</constraint>
+		<constraint name="agent161_and_agent164_don't_collide_7543" arity="4" scope="agent161r agent164r agent161bs agent164bs" reference="ISCOLLIDE" >
+			<parameters> agent161r agent164r agent161bs agent164bs 158 162 </parameters>  
+		</constraint>
+		<constraint name="agent161_and_agent163_don't_collide_8444" arity="4" scope="agent161r agent163r agent161bs agent163bs" reference="ISCOLLIDE" >
+			<parameters> agent161r agent163r agent161bs agent163bs 162 166 </parameters>  
+		</constraint>
+		<constraint name="agent163_and_agent169_don't_collide_787" arity="4" scope="agent163r agent169r agent163bs agent169bs" reference="ISCOLLIDE" >
+			<parameters> agent163r agent169r agent163bs agent169bs 162 166 </parameters>  
+		</constraint>
+		<constraint name="agent164_and_agent169_don't_collide_7867" arity="4" scope="agent164r agent169r agent164bs agent169bs" reference="ISCOLLIDE" >
+			<parameters> agent164r agent169r agent164bs agent169bs 162 166 </parameters>  
+		</constraint>
+		<constraint name="agent163_and_agent167_don't_collide_6425" arity="4" scope="agent163r agent167r agent163bs agent167bs" reference="ISCOLLIDE" >
+			<parameters> agent163r agent167r agent163bs agent167bs 166 170 </parameters>  
+		</constraint>
+		<constraint name="agent164_and_agent167_don't_collide_3138" arity="4" scope="agent164r agent167r agent164bs agent167bs" reference="ISCOLLIDE" >
+			<parameters> agent164r agent167r agent164bs agent167bs 166 170 </parameters>  
+		</constraint>
+		<constraint name="agent163_and_agent169_don't_collide_8635" arity="4" scope="agent163r agent169r agent163bs agent169bs" reference="ISCOLLIDE" >
+			<parameters> agent163r agent169r agent163bs agent169bs 166 170 </parameters>  
+		</constraint>
+		<constraint name="agent169_and_agent171_don't_collide_1239" arity="4" scope="agent169r agent171r agent169bs agent171bs" reference="ISCOLLIDE" >
+			<parameters> agent169r agent171r agent169bs agent171bs 166 170 </parameters>  
+		</constraint>
+	</constraints>
+
+</instance>

@@ -1,0 +1,352 @@
+#1
+bs =  [14, 19, 24]
+user =  [11, 16, 21, 25, 28]
+13 constraints
+
+Num of colors = 2
+var `agent21bs' = 19
+var `agent21r' = 1
+var `agent25bs' = 24
+var `agent16bs' = 14
+var `agent28bs' = 24
+var `agent16r' = 1
+var `agent11bs' = 14
+var `agent28r' = 2
+var `agent25r' = 1
+var `agent11r' = 2
+Total optimal cost: 7
+
+#2
+bs =  [21, 26, 31, 36]
+user =  [19, 20, 24, 27, 34, 37]
+14 constraints
+
+Num of colors = 2
+var `agent24bs' = 26
+var `agent24r' = 1
+var `agent19bs' = 21
+var `agent27bs' = 26
+var `agent20bs' = 21
+var `agent34bs' = 31
+var `agent19r' = 1
+var `agent27r' = 2
+var `agent20r' = 2
+var `agent34r' = 1
+var `agent37bs' = 36
+var `agent37r' = 1
+Total optimal cost: 8
+
+#3
+bs =  [53, 58, 63, 68]
+user =  [56, 61, 64, 67, 70, 52, 60]
+28 constraints
+
+Num of colors = 2
+var `agent67bs' = 68
+var `agent64bs' = 63
+var `agent61bs' = 58
+var `agent60bs' = 63
+var `agent61r' = 1
+var `agent60r' = 2
+var `agent56bs' = 53
+var `agent56r' = 2
+var `agent52bs' = 53
+var `agent52r' = 1
+var `agent67r' = 1
+var `agent64r' = 1
+var `agent70bs' = 68
+var `agent70r' = 2
+Total optimal cost: 10
+
+#4
+bs =  [28, 32, 36, 40, 44]
+user =  [26, 29, 33, 34, 38, 39, 43]
+31 constraints
+
+Num of colors = 2
+var `agent39bs' = 40
+var `agent38bs' = 36
+var `agent33bs' = 32
+var `agent34bs' = 32
+var `agent39r' = 1
+var `agent38r' = 1
+var `agent43bs' = 44
+var `agent43r' = 1
+var `agent34r' = 2
+var `agent33r' = 1
+var `agent29bs' = 28
+var `agent29r' = 1
+var `agent26bs' = 28
+var `agent26r' = 2
+Total optimal cost: 9
+
+#5
+bs =  [60, 65, 70, 75, 80]
+user =  [57, 61, 66, 71, 72, 73, 74, 78]
+42 constraints
+
+Num of colors = 2
+var `agent74bs' = 75
+var `agent66bs' = 65
+var `agent73bs' = 70
+var `agent71bs' = 70
+var `agent72bs' = 75
+var `agent74r' = 1
+var `agent73r' = 1
+var `agent72r' = 2
+var `agent71r' = 2
+var `agent66r' = 1
+var `agent61bs' = 60
+var `agent61r' = 1
+var `agent57bs' = 60
+var `agent57r' = 2
+var `agent78bs' = 80
+var `agent78r' = 1
+Total optimal cost: 11
+
+#6
+bs =  [60, 65, 70, 75, 80]
+user =  [57, 61, 66, 71, 72, 73, 74, 77, 78]
+54 constraints
+
+Num of colors = 2
+var `agent74bs' = 75
+var `agent73bs' = 75
+var `agent71bs' = 70
+var `agent72bs' = 70
+var `agent74r' = 1
+var `agent73r' = 2
+var `agent72r' = 1
+var `agent71r' = 2
+var `agent66bs' = 65
+var `agent66r' = 1
+var `agent61bs' = 60
+var `agent61r' = 1
+var `agent57bs' = 60
+var `agent57r' = 2
+var `agent77bs' = 80
+var `agent78bs' = 80
+var `agent78r' = 2
+var `agent77r' = 1
+Total optimal cost: 13
+
+Time 148,814 ms for the last one
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+Everything here timed out or gave an out of memory message
+
+#7
+bs =  [5, 12, 19, 26]
+user =  [1, 4, 7, 8, 13, 14, 24, 27, 31, 32]
+42 constraints
+
+Num of colors = 3
+var `agent8bs' = 5
+var `agent7bs' = 12
+var `agent7r' = 1
+var `agent8r' = 2
+var `agent4bs' = 5
+var `agent14bs' = 19
+var `agent1bs' = 5
+var `agent4r' = 1
+var `agent1r' = 3
+var `agent24bs' = 19
+var `agent24r' = 1
+var `agent27bs' = 26
+var `agent31bs' = 26
+var `agent32bs' = 26
+var `agent27r' = 1
+var `agent32r' = 2
+var `agent31r' = 3
+var `agent13bs' = 12
+var `agent14r' = 2
+var `agent13r' = 2
+Total optimal cost: 18
+
+Time : 149 ms
+
+
+#8
+bs =  [49, 55, 61, 67, 73]
+user =  [45, 51, 52, 58, 62, 66, 68, 72, 74, 77]
+46 constraints
+
+Num of colors = 2
+var `agent72bs' = 67
+var `agent68bs' = 67
+var `agent72r' = 3
+var `agent68r' = 1
+var `agent77bs' = 73
+var `agent66bs' = 61
+var `agent74bs' = 73
+var `agent58bs' = 55
+var `agent74r' = 1
+var `agent77r' = 2
+var `agent62bs' = 61
+var `agent62r' = 1
+var `agent58r' = 1
+var `agent52bs' = 55
+var `agent51bs' = 49
+var `agent66r' = 2
+var `agent52r' = 2
+var `agent51r' = 2
+var `agent45bs' = 49
+var `agent45r' = 1
+Total optimal cost: 16
+
+Time : 146 ms
+
+
+#9
+bs =  [13, 21, 29, 37, 45]
+user =  [10, 12, 16, 17, 19, 20, 22, 23, 24, 26, 28, 30, 32, 35, 41]
+145 constraints
+
+No solution within 600000 ms even if upper bound set to 3.
+
+#10
+bs =  [74, 80, 86, 92, 98, 104, 110, 116, 122, 128]
+user =  [71, 72, 77, 81, 83, 84, 85, 87, 91, 93, 96, 100, 101, 103, 106, 114, 118, 119, 121, 125]
+125 constraints
+
+Num of colors = 3
+var `agent91bs' = 92
+var `agent87bs' = 86
+var `agent91r' = 1
+var `agent87r' = 1
+var `agent96bs' = 98
+var `agent81bs' = 80
+var `agent93bs' = 92
+var `agent77bs' = 74
+var `agent84bs' = 80
+var `agent85bs' = 80
+var `agent83bs' = 86
+var `agent96r' = 1
+var `agent93r' = 2
+var `agent101bs' = 104
+var `agent100bs' = 98
+var `agent85r' = 3
+var `agent103bs' = 104
+var `agent103r' = 1
+var `agent100r' = 2
+var `agent101r' = 2
+var `agent106bs' = 110
+var `agent84r' = 1
+var `agent114bs' = 110
+var `agent121bs' = 122
+var `agent83r' = 2
+var `agent81r' = 2
+var `agent77r' = 2
+var `agent71bs' = 74
+var `agent72bs' = 74
+var `agent72r' = 1
+var `agent71r' = 3
+var `agent118bs' = 116
+var `agent119bs' = 122
+var `agent118r' = 1
+var `agent119r' = 2
+var `agent114r' = 2
+var `agent121r' = 1
+var `agent106r' = 1
+var `agent125bs' = 128
+var `agent125r' = 1
+Total optimal cost: 32
+
+Time : 55,837 ms
+
+#11
+bs =  [90, 100, 110, 120, 130]
+user =  [81, 82, 83, 85, 86, 87, 88, 89, 91, 92, 99, 103, 106, 107, 109, 111, 114, 115, 116, 122]
+
+185 constraints
+
+No solution within 600000 ms even if upper bound set to 3.
+
+#12
+bs =  [33, 45, 57, 69, 81]
+user =  [23, 26, 27, 29, 30, 32, 34, 35, 36, 42, 48, 58, 59, 61, 63, 64, 66, 67, 68, 70, 73, 74, 84, 85, 86]
+
+> 185 constraints
+
+#13
+bs =  [86, 93, 100, 107, 114, 121, 128, 135, 142, 149]
+user =  [80, 81, 82, 83, 89, 94, 95, 97, 98, 101, 104, 106, 111, 112, 118, 119, 125, 126, 129, 134, 137, 140, 148, 150, 154]
+154 constraints
+
+No solution within 600000 ms even if upper bound set to 3.
+
+#14
+bs =  [26, 32, 38, 44, 50, 56, 62, 68, 74, 80, 86, 92, 98, 104, 110]
+user =  [21, 22, 28, 30, 31, 33, 35, 36, 40, 41, 43, 45, 46, 48, 52, 58, 59, 64, 71, 76, 77, 81, 87, 90, 95, 96, 100, 105, 107, 115]
+
+>185 constraints
+
+#15
+bs =  [56, 61, 66, 71, 76, 81, 86, 91, 96, 101, 106, 111, 116, 121, 126, 131, 136, 141, 146, 151]
+user =  [53, 58, 59, 60, 62, 68, 70, 74, 78, 80, 83, 85, 87, 93, 97, 100, 104, 107, 112, 114, 115, 118, 122, 123, 128, 134, 139, 142, 148, 155]
+137 constraints
+
+var `agent62bs' = 61
+var `agent62r' = 1
+var `agent58bs' = 56
+var `agent70bs' = 71
+var `agent59bs' = 56
+var `agent74bs' = 71
+var `agent80bs' = 81
+var `agent78bs' = 76
+var `agent60bs' = 61
+var `agent60r' = 2
+var `agent85bs' = 81
+var `agent59r' = 1
+var `agent83bs' = 86
+var `agent58r' = 2
+var `agent53bs' = 56
+var `agent53r' = 3
+var `agent85r' = 2
+var `agent83r' = 1
+var `agent87bs' = 91
+var `agent93bs' = 91
+var `agent100bs' = 96
+var `agent97bs' = 96
+var `agent104bs' = 101
+var `agent107bs' = 106
+var `agent112bs' = 111
+var `agent80r' = 1
+var `agent74r' = 2
+var `agent68bs' = 66
+var `agent78r' = 1
+var `agent70r' = 1
+var `agent68r' = 1
+var `agent118bs' = 116
+var `agent118r' = 1
+var `agent122bs' = 121
+var `agent123bs' = 121
+var `agent128bs' = 126
+var `agent128r' = 1
+var `agent134bs' = 131
+var `agent139bs' = 136
+var `agent142bs' = 141
+var `agent148bs' = 146
+var `agent142r' = 1
+var `agent148r' = 1
+var `agent139r' = 1
+var `agent155bs' = 151
+var `agent134r' = 2
+var `agent155r' = 2
+var `agent122r' = 1
+var `agent123r' = 2
+var `agent114bs' = 111
+var `agent115bs' = 116
+var `agent107r' = 1
+var `agent114r' = 2
+var `agent115r' = 2
+var `agent104r' = 1
+var `agent112r' = 1
+var `agent100r' = 2
+var `agent93r' = 1
+var `agent97r' = 1
+var `agent87r' = 2
+Total optimal cost: 43
+
+Time : 135,877 ms

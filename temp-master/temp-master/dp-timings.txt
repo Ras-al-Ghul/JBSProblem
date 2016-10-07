@@ -1,0 +1,43 @@
+#0
+colors: 2
+29 ms
+
+#1
+colors: 2
+28 ms
+
+#2
+colors: 4
+32 ms
+
+#3
+colors: 2
+32 ms
+
+#4
+colors: 6
+80 ms
+
+#5
+colors: 6
+225 ms
+
+#6
+colors: 3
+55 ms
+
+#7
+colors: 10
+810 ms
+
+#8
+colors: 30
+132154 ms
+
+#9
+colors: 31
+169293 ms
+
+#10
+colors: 22
+139773 ms
