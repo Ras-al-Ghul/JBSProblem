@@ -1,4 +1,4 @@
-#JBS Problem
+# JBS Problem
 
 The root directory contains
 
